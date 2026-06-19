@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Irsyad Hasan - Laravel Developer Portfolio</title>
+
+  <meta name="description"
+    content="Portfolio Irsyad Hasan, Laravel Developer yang berfokus pada pengembangan aplikasi web menggunakan Laravel, PHP, dan MySQL.">
+
+  <script type="module" src="/src/main.js"></script>
+</head>
+
+<body class="bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full backdrop-blur-md bg-zinc-950/80 border-b border-zinc-800 shadow-lg z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <h1 class="font-bold text-lg">
+        Irsyad Hasan
+      </h1>
+
+      <div class="hidden md:flex gap-6 text-zinc-400">
+
+        <a href="#about" class="nav-link hover:text-white transition">
+          Tentang
+        </a>
+
+        <a href="#skills" class="nav-link hover:text-white transition">
+          Skills
+        </a>
+
+        <a href="#projects" class="nav-link hover:text-white transition">
+          Project
+        </a>
+
+        <a href="#github" class="nav-link hover:text-white transition">
+          GitHub
+        </a>
+
+        <a href="#contact" class="nav-link hover:text-white transition">
+          Kontak
+        </a>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center">
+
+    <div class="max-w-6xl mx-auto px-6 w-full">
+
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <!-- Foto Profil -->
+        <div class="flex justify-center order-1 lg:order-2" data-aos="fade-left">
+
+          <div class="relative">
+
+            <div class="absolute inset-0 bg-white/10 blur-3xl rounded-full"></div>
+
+            <img src="/images/profile.png" alt="Irsyad Hasan" class="relative w-[280px] md:w-[400px]">
+
+          </div>
+
+        </div>
+
+        <!-- Content -->
+        <div class="order-2 lg:order-1" data-aos="fade-right">
+
+          <p class="uppercase tracking-[0.3em] text-zinc-500 mb-4">
+            Laravel Developer
+          </p>
+
+          <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-4">
+            Irsyad Hasan
+          </h1>
+
+          <h2 class="text-2xl md:text-3xl text-zinc-300 mb-6">
+            Backend Engineer & Web Developer
+          </h2>
+
+          <p class="text-zinc-500 text-lg leading-relaxed mb-8 max-w-2xl">
+            Membangun aplikasi web yang efisien,
+            scalable, dan mudah digunakan menggunakan
+            Laravel, PHP, dan MySQL.
+          </p>
+
+          <!-- Skill Badge -->
+          <div class="flex flex-wrap gap-3 mb-10">
+
+            <span class="px-4 py-2 bg-zinc-900 rounded-full border border-zinc-800">
+              Laravel
+            </span>
+
+            <span class="px-4 py-2 bg-zinc-900 rounded-full border border-zinc-800">
+              PHP
+            </span>
+
+            <span class="px-4 py-2 bg-zinc-900 rounded-full border border-zinc-800">
+              MySQL
+            </span>
+
+          </div>
+
+          <div class="flex gap-4 flex-wrap">
+
+            <a href="#projects"
+              class="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:opacity-90 transition">
+              View Projects
+            </a>
+
+            <a href="https://github.com/irsyad-hasan" target="_blank"
+              class="px-6 py-3 border border-zinc-700 rounded-xl hover:bg-zinc-900 transition">
+              GitHub
+            </a>
+
+            <a href="/cv/CV-Irsyad-Hasan.pdf" target="_blank"
+              class="px-6 py-3 border border-zinc-700 rounded-xl hover:bg-zinc-900 transition">
+              Download CV
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-32">
+
+    <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
+
+      <h2 class="text-4xl font-bold mb-10">
+        About Me
+      </h2>
+
+      <div class="max-w-3xl">
+
+        <p class="text-zinc-400 text-lg leading-relaxed">
+          Saya adalah Laravel Developer yang berfokus pada pengembangan
+          aplikasi web menggunakan PHP, Laravel, dan MySQL.
+        </p>
+
+        <p class="text-zinc-400 text-lg leading-relaxed mt-6">
+          Saya memiliki pengalaman membangun sistem informasi administrasi
+          yang membantu meningkatkan efisiensi proses bisnis, pengelolaan
+          data yang terstruktur, serta kemudahan akses informasi bagi pengguna.
+        </p>
+
+        <p class="text-zinc-400 text-lg leading-relaxed mt-6">
+          Saat ini saya terus mengembangkan kemampuan dalam backend
+          development, perancangan database, REST API, dan pengembangan
+          aplikasi berbasis Laravel.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-32">
+
+    <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
+
+      <h2 class="text-4xl font-bold mb-12">
+        Tech Stack
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition"
+          data-aos="fade-up" data-aos-delay="100">
+
+          <h3 class="text-xl font-bold mb-3">
+            Backend Development
+          </h3>
+
+          <p class="text-zinc-400">
+            Laravel, PHP, MySQL
+          </p>
+
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition"
+          data-aos="fade-up" data-aos-delay="200">
+
+          <h3 class="text-xl font-bold mb-3">
+            API Development
+          </h3>
+
+          <p class="text-zinc-400">
+            REST API Integration
+          </p>
+
+        </div>
+
+        <div class="bg-zinc-900 p-8 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition"
+          data-aos="fade-up" data-aos-delay="300">
+
+          <h3 class="text-xl font-bold mb-3">
+            Version Control
+          </h3>
+
+          <p class="text-zinc-400">
+            Git & GitHub
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-32">
+
+    <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
+
+      <h2 class="text-4xl font-bold mb-12">
+        Featured Projects
+      </h2>
+
+      <!-- Persuratan MAN 2 -->
+      <div class="bg-zinc-900 rounded-3xl border border-zinc-800 overflow-hidden mb-10">
+
+        <img src="/images/persuratan-man2.png" alt="Persuratan MAN 2" class="w-full">
+
+        <div class="p-8 md:p-10">
+
+          <h3 class="text-3xl font-bold mb-4">
+            Persuratan MAN 2
+          </h3>
+
+          <p class="text-zinc-400 leading-relaxed mb-8">
+            Sistem informasi persuratan berbasis web yang mendukung
+            pengelolaan surat masuk dan surat keluar secara digital
+            untuk meningkatkan efisiensi proses administrasi dan
+            pengarsipan dokumen.
+          </p>
+
+          <div class="mb-8">
+
+            <h4 class="font-semibold mb-4">
+              Kontribusi
+            </h4>
+
+            <ul class="space-y-3 text-zinc-400">
+
+              <li>• Menganalisis kebutuhan pengguna dan alur bisnis persuratan.</li>
+              <li>• Mengimplementasikan fitur pencatatan surat masuk dan surat keluar.</li>
+              <li>• Mengembangkan fitur pencarian dan pengarsipan dokumen.</li>
+              <li>• Mendesain struktur database yang terorganisir dan mudah diakses.</li>
+
+            </ul>
+
+          </div>
+
+          <div class="flex gap-3 flex-wrap mb-8">
+
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">Laravel</span>
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">PHP</span>
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">MySQL</span>
+
+          </div>
+
+          <a href="https://github.com/irsyad-hasan/persuratan-man2" target="_blank"
+            class="inline-block px-6 py-3 bg-white text-black rounded-xl font-semibold">
+            View Source Code
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- Rental Laptop -->
+      <div class="bg-zinc-900 rounded-3xl border border-zinc-800 overflow-hidden">
+
+        <img src="/images/rental-laptop.png" alt="Rental Laptop" class="w-full">
+
+        <div class="p-8 md:p-10">
+
+          <h3 class="text-3xl font-bold mb-4">
+            Rental Laptop Management System
+          </h3>
+
+          <p class="text-zinc-400 leading-relaxed mb-8">
+            Aplikasi berbasis web yang digunakan untuk mengelola data laptop,
+            pelanggan, transaksi penyewaan, pengembalian, dan laporan rental
+            secara efektif dan terintegrasi.
+          </p>
+
+          <div class="mb-8">
+
+            <h4 class="font-semibold mb-4">
+              Kontribusi
+            </h4>
+
+            <ul class="space-y-3 text-zinc-400">
+
+              <li>• Membuat sistem autentikasi pengguna.</li>
+              <li>• Mengembangkan CRUD data laptop.</li>
+              <li>• Mengembangkan CRUD data pelanggan.</li>
+              <li>• Mengimplementasikan transaksi penyewaan dan pengembalian.</li>
+              <li>• Membuat laporan rental.</li>
+
+            </ul>
+
+          </div>
+
+          <div class="flex gap-3 flex-wrap mb-8">
+
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">Laravel</span>
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">PHP</span>
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">MySQL</span>
+            <span class="px-4 py-2 bg-zinc-800 rounded-full">Bootstrap</span>
+
+          </div>
+
+          <a href="https://github.com/irsyad-hasan/rental-laptop" target="_blank"
+            class="inline-block px-6 py-3 bg-white text-black rounded-xl font-semibold">
+            View Source Code
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-32">
+
+    <div class="max-w-6xl mx-auto px-6">
+
+      <div class="text-center">
+
+        <h2 class="text-4xl font-bold mb-6">
+          Let's Work Together
+        </h2>
+
+        <p class="text-zinc-400 text-lg mb-10">
+          Terbuka untuk peluang kerja, freelance, maupun kolaborasi project.
+        </p>
+
+        <div class="space-y-4 text-zinc-300">
+
+          <p>
+            GitHub :
+            <a href="https://github.com/irsyad-hasan" target="_blank" class="text-white hover:underline">
+              github.com/irsyad-hasan
+            </a>
+          </p>
+
+          <p>
+            Email :
+            230101053@mhs.udb.ac.id
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-800 py-8">
+
+    <div class="max-w-6xl mx-auto px-6 text-center text-zinc-500">
+
+      © <span id="year"></span> Irsyad Hasan
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
